@@ -276,7 +276,7 @@ declare module 'fuse-bindings' {
 		 * @param mode 
 		 * @param cb 
 		 */
-		create?(path: string, mode: number, cb: (code: number) => void): void;
+		create?(path: string, mode: number, cb: (code: number, fd: number) => void): void;
 
 		/**
 		 * Called when the atime/mtime of a file is being changed.
