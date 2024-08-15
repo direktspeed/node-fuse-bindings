@@ -15,18 +15,18 @@
   },
   "gypfile": true,
   "dependencies": {
-    "nan": "^2.14.0",
-    "node-gyp": "^6.0.1",
-    "node-gyp-build": "^4.2.0",
-    "prebuild-install": "^5.3.3",
+    "nan": "^2.20.0",
+    "node-gyp": "^10.2.0",
+    "node-gyp-build": "^4.8.1",
+    "prebuild-install": "^7.1.2",
     "xtend": "^4.0.2"
   },
   "devDependencies": {
     "concat-stream": "^2.0.0",
-    "prebuild": "^9.1.1",
-    "prebuildify": "^3.0.4",
-    "standard": "^14.3.1",
-    "tape": "^4.11.0"
+    "prebuild": "^13.0.1",
+    "prebuildify": "^6.0.1",
+    "standard": "^17.1.0",
+    "tape": "^5.8.1"
   },
   "repository": {
     "type": "git",
