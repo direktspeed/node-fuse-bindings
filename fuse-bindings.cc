@@ -1333,7 +1333,7 @@ NAN_METHOD(Unmount) {
 
 void Init(v8::Local<v8::Object> exports) {
 
-  v8::Local<v8::Context> context = exports->CreationContext();
+  v8::Local<v8::Context> context = exports->GetCreationContext().ToLocalChecked();
 
   exports->Set(context, Nan::New("setCallback").ToLocalChecked(), Nan::New<FunctionTemplate>(SetCallback)->GetFunction(context).ToLocalChecked());
   exports->Set(context, Nan::New("setBuffer").ToLocalChecked(), Nan::New<FunctionTemplate>(SetBuffer)->GetFunction(context).ToLocalChecked());

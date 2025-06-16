@@ -1,5 +1,5 @@
 
-declare module 'fuse-bindings' {
+declare module 'node-fuse-bindings' {
 
 	function mount(mountPoint: string, ops: MountOptions,
 		cb: (code: number) => void): void;
